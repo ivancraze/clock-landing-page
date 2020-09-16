@@ -1,0 +1,22 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    height: 80px;
+    margin: 0 auto;
+    &__list {
+        display: flex;
+        align-items: center;
+    }
+    &__item {
+        height: 100%;
+        margin-right: 40px;
+        text-transform: uppercase;
+        &:last-child{
+            margin-right: 0;
+        }
+        &:hover {
+            background-color: #1F1F1F;
+        }
+    }
+}

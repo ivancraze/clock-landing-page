@@ -1,3 +1,7 @@
+@import '../sass/blocks/header';
+@import '../sass/blocks/showcase';
+@import '../sass/blocks/nav';
+
 li {
     list-style-type: none;
 }
@@ -16,45 +20,6 @@ a {
   }
 }
 
-.header {
-    display: flex;
-    align-content: center;
-    justify-content: space-between;
-    height: 44px;
-    margin: 0 auto;
-    &__list {
-        display: flex;
-        align-items: center;
-    }
-    &__item {
-        font-size: 12px;
-        color: #969696;
-        margin: 14px;
-        &-contacts {
-            position: relative;
-            &::after{
-                content: "|";
-                position: absolute;
-                right: -14px;
-            }
-            &:last-child::after{
-                display: none;
-            }
-        }
-        &-auth {
-            margin: 5px;
-            position: relative;
-            &::after{
-                content: "/";
-                position: absolute;
-                right: -7px;
-            }
-            &:last-child::after{
-                display: none;
-            }
-        }
-    }            
-}
 .container {
     max-width: 1110px;
     width: 100%;
@@ -76,53 +41,5 @@ a {
     }
     &--showcase {
         background-image: url(../img/first_line.jpg);
-    }
-}
-
-.nav {
-    display: flex;
-    justify-content: space-between;
-    align-items:center;
-    height: 80px;
-    margin: 0 auto;
-    &__list {
-        display: flex;
-        align-items: center;
-    }
-    &__item {
-        height: 100%;
-        margin-right: 40px;
-        text-transform: uppercase;
-        &:last-child{
-            margin-right: 0;
-        }
-        &:hover {
-            background-color: #1F1F1F;
-        }
-    }
-}
-
-a.nav_link {
-    padding: 20px;
-}
-
-.showcase {
-    height: 810px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    &__img {
-        // display: inline-block;
-        // margin-top: 160px;
-    }
-    &__text {
-        // margin-top: 80px;
-        padding-top: 80px;
-        font-size: 16px;
-        line-height: 24px;
-        text-align: center;
-        text-transform: uppercase;
-        color: #FFFFFF;
     }
 }
