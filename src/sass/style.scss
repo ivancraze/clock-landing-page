@@ -1,7 +1,16 @@
 @import '../sass/blocks/header';
-@import '../sass/blocks/showcase';
 @import '../sass/blocks/nav';
+@import '../sass/blocks/showcase';
+@import '../sass/blocks/season';
 
+hr {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+body {
+    color:#FFF
+}
 span {
   color:#969696;
 }

@@ -1,0 +1,69 @@
+.title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.season {
+    min-height: 730px;
+    &__content {
+        min-height: 730px;
+        display: flex;
+        justify-content: space-between;
+        &--left {
+            display: flex;
+            flex-basis: 1040px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        &--right {
+            flex-basis: 880px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding: 100px;
+            align-items: center;
+            background: url(../../img/season_bg.png) no-repeat;
+        }
+    }
+    &__items {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 260px;
+        height: 400px;
+        margin-right: 50px;
+        &:last-child {
+            margin-right: 0px;
+        }
+        &--img {
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            background-color: #191B1C;
+            width: 260px;
+            height: 325px;
+            margin-bottom: 25px;
+        }
+        &--title {
+            text-decoration-color: #FFF;
+        }
+    }
+}
+
+.season__btn {
+    border: 1px solid #FFFFFF;
+    font-size: 18px;
+    color: #FFFFFF;
+    width: 138px;
+    height: 47px;
+    background: transparent;
+}
