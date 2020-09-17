@@ -2,12 +2,8 @@
 @import '../sass/blocks/showcase';
 @import '../sass/blocks/nav';
 
-li {
-    list-style-type: none;
-}
-ul {
- margin: 0;
- padding-left: 0;
+span {
+  color:#969696;
 }
 
 a:active,
@@ -26,6 +22,9 @@ a {
     margin: 0 auto;
     &--showcase {
         max-width: 730px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
 
@@ -38,8 +37,5 @@ a {
     }
     &--gray {
         background-color: #0F0F0F;
-    }
-    &--showcase {
-        background-image: url(../img/first_line.jpg);
     }
 }

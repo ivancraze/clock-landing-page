@@ -1,9 +1,10 @@
 .nav {
-    display: flex;
-    justify-content: space-between;
-    align-items:center;
-    height: 80px;
-    margin: 0 auto;
+    max-height: 80px;
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+    }
     &__list {
         display: flex;
         align-items: center;
