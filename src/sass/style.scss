@@ -3,6 +3,10 @@
 @import '../sass/blocks/showcase';
 @import '../sass/blocks/season';
 @import '../sass/blocks/buttons';
+@import '../sass/blocks/collection';
+@import '../sass/blocks/goods';
+@import '../sass/blocks/brands';
+
 
 
 * {
@@ -21,14 +25,27 @@ span {
   color:#969696;
 }
 
-a:active,
+a:active, 
+a:focus,
 a {
-  text-decoration: none;
-  color:#969696;
-  &:hover {
     text-decoration: none;
-    color:#FFF;
-  }
+    outline: none;
+    color:#969696;
+    &:hover {
+        text-decoration: none;
+        color:#FFF;
+    }
+}
+
+.title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: Playfair Display;
+    font-style: normal;
 }
 
 .container {

@@ -8,4 +8,7 @@
         background: #FFFFFF;
         color: #000;
     }
+    &:focus {
+        outline: none;
+    }
 }
