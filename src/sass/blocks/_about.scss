@@ -1,0 +1,53 @@
+.about {
+    min-height: 400px;
+    background: url(../img/about_bg.png) no-repeat center;
+    display: flex;
+    align-items: center;
+    &__items {
+        display: flex;
+    }
+    &__title {
+        font-family: Playfair Display;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        margin-bottom: 40px;
+    }
+    &__text {
+        font-size: 14px;
+        line-height: 150%;
+    }
+    &__mail {
+        background: rgba(255, 255, 255, 0.4);
+        &::placeholder {
+            color: #FFF;
+          }
+        &:focus {
+            outline: none;
+        }
+    }
+    &__categories {
+        display: flex;
+        width: 350px;
+        flex-direction: column;
+        margin-right: 35px;
+    }
+    &__buttons {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    &__mailing {
+        display: flex;
+        width: 350px;
+        flex-direction: column;
+    }
+    &__inputs {
+        display: flex;
+        flex-direction: row;
+    }
+    &__shop {
+        width: 350px;
+        margin-right: 35px;
+    }
+}

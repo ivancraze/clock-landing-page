@@ -8,5 +8,7 @@
     }
     &__items {
         display: flex;
+        justify-content: space-between;
+        min-width: 1110px;
     }
 }

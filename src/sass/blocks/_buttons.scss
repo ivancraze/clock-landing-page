@@ -12,3 +12,17 @@
         outline: none;
     }
 }
+
+.about__btn {
+    padding: 10px 20px;
+    color: #FFFFFF;
+    background: #0F0F0F;
+    border: none;
+    &:hover {
+        background: #FFFFFF;
+        color: #000;
+    }
+    &:focus {
+        outline: none;
+    }
+}
